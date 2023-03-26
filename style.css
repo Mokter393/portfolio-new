@@ -1,0 +1,148 @@
+/* Universal/Common setup */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Calistoga', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/********************
+Header/NavBar section START
+*********************/
+.main-nav{
+    border: 1px solid black;
+    padding: 10px 0px;
+}
+
+.navAndBannerContainer{
+    background-image: url(img/green-bg.jpg);
+    background-size: cover;
+}
+
+.logo{
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+}
+
+.mokter{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Calistoga', cursive;
+    background-color: #FFD83A;
+    padding: 5px 12px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.nav-items{
+    margin: 0 auto;
+}
+.nav-items>li{
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.btn-nav{
+    background-color: #161d31;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 0px;
+    font-weight: 600;
+}
+
+.btn-nav:hover{
+    background-color: #fff;
+    color: #161d31;
+    font-weight: 600;
+}
+/********************
+Header/NavBar section END
+*********************/
+
+/********************
+Banner section START
+*********************/
+.banner-container{
+    background-image: url(img/green-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.banner-text>h3{
+    font-size: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.banner-text>h1{
+    font-size: 70px;
+    font-family: 'Calistoga', cursive;
+    font-weight: 500;
+}
+
+.banner-text>p{
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.btn-banner-text1{
+    padding: 12px 25px;
+    background-color: #fff;
+    border: 2px solid #161d31;
+    margin-right: 30px;
+    color: #161d31;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-banner-text1:hover{
+    background-color: #161d31;
+    color: #fff;
+}
+
+.btn-banner-text2{
+    padding: 12px 25px;
+    background-color: #161d31;
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-banner-text2:hover{
+    background-color: #fff;
+    color: #161d31;
+}
+
+.banner-quote{
+    margin-top: 120px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.quote-colon{
+    font-size: 40px;
+    color: #FFD83A;
+    font-family: 'Calistoga-italic', cursive;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: 5px;
+}
+
+
+.banner-img{
+    height: 100vh;
+}
