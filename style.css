@@ -11,7 +11,7 @@
 Header/NavBar section START
 *********************/
 .main-nav{
-    border: 1px solid black;
+    border-bottom: 1px solid #24315E;
     padding: 10px 0px;
 }
 
@@ -24,6 +24,7 @@ Header/NavBar section START
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     letter-spacing: 3px;
+    color: #24315E;
 }
 
 .mokter{
@@ -33,6 +34,7 @@ Header/NavBar section START
     background-color: #FFD83A;
     padding: 5px 12px;
     border-radius: 10px 0px 10px 0px;
+    color: #24315E;
 }
 
 .nav-items{
@@ -44,7 +46,7 @@ Header/NavBar section START
 }
 
 .btn-nav{
-    background-color: #161d31;
+    background-color: #24315E;
     color: #fff;
     padding: 12px 20px;
     border-radius: 0px;
@@ -53,7 +55,7 @@ Header/NavBar section START
 
 .btn-nav:hover{
     background-color: #fff;
-    color: #161d31;
+    color: #24315E;
     font-weight: 600;
 }
 /********************
@@ -81,13 +83,15 @@ Banner section START
 .banner-text>h3{
     font-size: 40px;
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    color: #24315E;
 }
 
 .banner-text>h1{
     font-size: 70px;
     font-family: 'Calistoga', cursive;
     font-weight: 500;
+    color: #24315E;
 }
 
 .banner-text>p{
@@ -102,7 +106,7 @@ Banner section START
     background-color: #fff;
     border: 2px solid #161d31;
     margin-right: 30px;
-    color: #161d31;
+    color: #24315E;
     text-decoration: none;
     font-weight: 500;
 }
@@ -131,6 +135,7 @@ Banner section START
     font-size: 20px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
+    color: #24315E;
 }
 
 .quote-colon{
@@ -141,8 +146,54 @@ Banner section START
     line-height: 0px;
     letter-spacing: 5px;
 }
-
-
-.banner-img{
+.banner-img>img{
     height: 100vh;
+}
+
+.social-icons{
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons>img{
+    margin-left: 10px;
+}
+
+/********************
+Banner section START
+*********************/
+
+.strenth-container{
+    background-color: #3D4970;
+}
+
+.strenth-box-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.strenth-box-info{
+    border-right: 1px solid #a5a3a3;
+    padding: 30px 90px;
+}
+
+.border-box-info-last{
+    border-right: none;
+}
+
+.strenth-box-info>h2>img{
+    width: 80px;
+    height: 80px;
+    margin-right: 40px;
+}
+
+.strenth-box-info>h2{
+    font-size: 25px;
+    font-weight: 900px;
+    color: #fff;
+}
+
+.strenth-box-info>p{
+    color: #C5C8D4;
 }
